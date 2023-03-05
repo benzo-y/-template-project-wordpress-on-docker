@@ -1,0 +1,6 @@
+*
+!docker-compose.yml
+!README.md
+!.gitignore
+!/wp-content/themes/{mytheme} 
+# {mytheme}にはテーマ名を入れる
