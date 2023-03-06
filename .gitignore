@@ -7,3 +7,6 @@
 !/src/wp-content/themes
 !/src/wp-content/themes/mytheme
 !/src/wp-content/themes/mytheme/*
+
+!/src/wp-content/themes/myblog-handson
+!/src/wp-content/themes/myblog-handson/*
