@@ -21,6 +21,7 @@
   <!-- Custom styles for this template -->
   <link href="http://localhost:18000/wp-content/themes/myblog-handson/css/clean-blog.min.css" rel="stylesheet">
 
+  <?php wp_head(); ?>
 </head>
 
 <body>
@@ -182,6 +183,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
 
+  <?php wp_footer(); ?>
 </body>
 
 </html>
