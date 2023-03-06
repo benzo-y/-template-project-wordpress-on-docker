@@ -12,7 +12,10 @@
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
       <!-- Page Header -->
-      <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+      <?php
+      $img = get_eyechatch_with_default();
+      ?>
+      <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
