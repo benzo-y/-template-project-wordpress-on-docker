@@ -11,3 +11,7 @@
 !/src/wp-content/themes/myblog-handson
 !/src/wp-content/themes/myblog-handson/*
 !/src/wp-content/themes/myblog-handson/includes/*
+
+
+!/src/wp-content/themes/wp-customize-handson
+!/src/wp-content/themes/wp-customize-handson/*
