@@ -14,7 +14,7 @@ add_action('init', function () {
     'public' => true,
     'menu_position' => 10,
     'menu_icon' => 'dashicons-store',
-    'supports' => ['thumbnail', 'title', 'editor', 'page-attributes'],
+    'supports' => ['thumbnail', 'title', 'editor', 'page-attributes', 'custom-fields'],
     'has_archive' => true,
     'hierarchical' => true,
     'show_in_rest' => true,
