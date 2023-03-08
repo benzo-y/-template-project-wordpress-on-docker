@@ -8,6 +8,16 @@
  * @package wp-customize-handson
  */
 
+add_action('init', function () {
+  register_post_type('item', [ // urlなどに使われるidのような値
+    'label' => '商品', // 管理画面に表示されるラベル
+    'public' => true,
+    'menu_position' => 10,
+    'menu_icon' => 'dashicons-store',
+    'supports' => ['thumbnail', 'title', 'editor'],
+  ]);
+});
+
 if (!defined('_S_VERSION')) {
   // Replace the version number of the theme on each release.
   define('_S_VERSION', '1.0.0');
