@@ -16,3 +16,7 @@
 !/src/wp-content/themes/wp-customize-handson
 !/src/wp-content/themes/wp-customize-handson/*
 !/src/wp-content/themes/wp-customize-handson/template-parts/content-item.php
+
+!/src/wp-content/plugins/
+!/src/wp-content/plugins/my-plugin
+!/src/wp-content/plugins/my-plugin/*
