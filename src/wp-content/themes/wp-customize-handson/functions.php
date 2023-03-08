@@ -19,6 +19,12 @@ add_action('init', function () {
     'hierarchical' => true,
     'show_in_rest' => true,
   ]);
+
+  register_taxonomy('genre', 'item', [
+    'label' => '商品ジャンル',
+    'hierarchical' => true, // true:カテゴリ、false:タグ
+    'show_in_rest' => true, // 対象の投稿タイプに設定されていたら設定する
+  ]);
 });
 
 if (!defined('_S_VERSION')) {
