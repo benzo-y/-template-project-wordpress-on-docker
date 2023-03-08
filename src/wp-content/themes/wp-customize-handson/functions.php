@@ -8,6 +8,18 @@
  * @package wp-customize-handson
  */
 
+add_shortcode('date', function () {
+  return date('Y年 n月 j日');
+});
+
+add_shortcode('sum', function ($atts) {
+  $atts = shortcode_atts([
+    'x' => 0,
+    'y' => 0
+  ], $atts, 'sum');
+  return $atts['x'] + $atts['y'];
+});
+
 add_action('init', function () {
   register_post_type('item', [ // urlなどに使われるidのような値
     'label' => '商品', // 管理画面に表示されるラベル
