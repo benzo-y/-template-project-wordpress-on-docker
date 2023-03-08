@@ -15,3 +15,4 @@
 
 !/src/wp-content/themes/wp-customize-handson
 !/src/wp-content/themes/wp-customize-handson/*
+!/src/wp-content/themes/wp-customize-handson/template-parts/content-item.php
